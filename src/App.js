@@ -2,22 +2,18 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Showcase from "./components/Showcase";
+import About from "./components/About";
+import Projects from "./components/Projects.js";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <Navbar />
       <Showcase />
-
-      <h2 style={{ color: "white" }} id="about">
-        Temp About
-      </h2>
-      <h2 style={{ color: "white" }} id="projects">
-        Temp Projects
-      </h2>
-      <h2 style={{ color: "white" }} id="contact">
-        Temp Contact
-      </h2>
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 }

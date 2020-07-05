@@ -16,6 +16,7 @@ body {
   line-height: 1.5;
   background-color: var(--background-color);
   color: white;
+  text-transform: uppercase;
 }
 
 a {
@@ -32,4 +33,22 @@ h1 {
 .alias {
   color: var(--primary-color);
   font-weight: 700;
+}
+
+.title-line {
+  width: 50%;
+  height: 4px;
+  margin: auto;
+  border-width: 0;
+  background-color: var(--primary-color);
+  transition: 0.8s;
+}
+
+.section-divider {
+  width: 70%;
+  height: 2px;
+  margin: 1.5em auto;
+  border-width: 0;
+  background-color: #fff;
+  transition: 0.8s;
 }

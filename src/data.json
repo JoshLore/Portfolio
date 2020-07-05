@@ -1,0 +1,94 @@
+{
+  "about": {
+    "name": "Joshua Kelley",
+    "picture": "../images/profile.png",
+    "education": {
+      "school": "University of Texas at Austin",
+      "degree": "B.S. In Computer Science",
+      "attended": "2015 - 2020"
+    },
+    "skills": {
+      "JavaScript": "fab fa-js",
+      "Python": "fab fa-python",
+      "Java": "fab fa-java",
+      "HTML5": "fab fa-html5",
+      "CSS": "fab fa-css3-alt",
+      "Node.js": "fab fa-node-js",
+      "React": "fab fa-react",
+      "Flask": "fab fa-flask",
+      "Angular": "fab fa-angular",
+      "Vue.js": "fab fa-vuejs",
+      "Git": "fab fa-git",
+      "Digital Ocean": "fab fa-digital-ocean",
+      "Google Cloud Platform": "fab fa-google",
+      "Amazon Web Services": "fab fa-aws"
+    },
+    "work experience": [
+      {
+        "company": "Texas Legislative Council",
+        "time": "November 2018 - May 2019",
+        "title": "Legislative Technician",
+        "duties": [
+          "C# application used for testing, troubleshooting, and optimizing the app team’s proprietary Legislative document storage and archival software.",
+          "Created functionality to test multiple scenarios including the processing of documents in batches or in quick succession for load-testing purposes.",
+          "Application sends document information such as the location of necessary files for compilation via GET requests to an API endpoint defined by the publishing software running on the server."
+        ]
+      },
+      {
+        "company": "JustLegal",
+        "time": "November 2017 - February 2018",
+        "title": "Full-Stack Intern",
+        "duties": [
+          "Python/Django web application connecting lawyers and people seeking legal advice.",
+          "Helped with the integration of real-time search using Algolia, payments with Stripe, and improving the web layout for a more streamlined user experience with basic HTML, CSS, and JavaScript.",
+          "Worked on the migration from Ruby on Rails to Django on Amazon Web Services."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Portfolio",
+      "img": "../images/portfolio.png",
+      "description": "My personal portfolio.",
+      "skills": ["React"],
+      "url": {
+        "GitHub": "https://github.com/JoshLore/Portfolio",
+        "Website": "http://loredevelops.com"
+      }
+    },
+    {
+      "name": "HueTasks",
+      "img": "../images/huetasks.png",
+      "description": "Desktop App for programming Philip Hue Lights",
+      "skills": ["Vue.js", "Electron", "Node.js"],
+      "url": {
+        "GitHub": "https://github.com/JoshLore/HueTasks",
+        "Website": "https://github.com/JoshLore/HueTasks"
+      }
+    },
+    {
+      "name": "The Coding Network",
+      "img": "../images/thecodingnetwork.png",
+      "description": "A Social Network for Programmers",
+      "skills": ["MongoDB", "Express", "React", "Node.js"],
+      "url": {
+        "GitHub": "https://github.com/JoshLore/thecodingnetwork-frontend",
+        "Website": "https://thecoding.network"
+      }
+    }
+  ],
+  "contact": {
+    "name": "Joshua Kelley",
+    "socials": {
+      "GitHub": ["https://github.com/JoshLore", "fab fa-github"],
+      "LinkedIn": [
+        "https://www.linkedin.com/in/joshua-kelley-1950b315b/",
+        "fab fa-linkedin"
+      ],
+      "Portfolio": ["http://loredevelops.com", "fas fa-user-tie"]
+    },
+    "Email": "loredevelops@gmail.com",
+    "Phone": "915-256-1185"
+  }
+}
