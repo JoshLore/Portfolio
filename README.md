@@ -2,7 +2,7 @@
 
 This is the code for my portfolio under my alias "LoreDevelops".
 
-You can use this portfolio to make it your own. You only have to change a few elements in showcase and navbar components. The rest can be changed inside the data.json. Enjoy!
+You can use this portfolio to make it your own. Everything can be changed inside the data.json. Enjoy!
 
 ## Links
 
