@@ -15,18 +15,17 @@
       "CSS": "fab fa-css3-alt",
       "Node.js": "fab fa-node-js",
       "React": "fab fa-react",
-      "Flask": "fab fa-flask",
+      "Flask": "fas fa-flask",
       "Angular": "fab fa-angular",
       "Vue.js": "fab fa-vuejs",
       "Git": "fab fa-git",
-      "Digital Ocean": "fab fa-digital-ocean",
-      "Google Cloud Platform": "fab fa-google",
-      "Amazon Web Services": "fab fa-aws"
+      "GCP": "fab fa-google",
+      "AWS": "fab fa-aws"
     },
-    "work experience": [
+    "workExperience": [
       {
         "company": "Texas Legislative Council",
-        "time": "November 2018 - May 2019",
+        "time": "Nov 2018 - May 2019",
         "title": "Legislative Technician",
         "duties": [
           "C# application used for testing, troubleshooting, and optimizing the app team’s proprietary Legislative document storage and archival software.",
@@ -36,7 +35,7 @@
       },
       {
         "company": "JustLegal",
-        "time": "November 2017 - February 2018",
+        "time": "Nov 2017 - Feb 2018",
         "title": "Full-Stack Intern",
         "duties": [
           "Python/Django web application connecting lawyers and people seeking legal advice.",

@@ -11,6 +11,10 @@
   background-color: rgba(36, 36, 36, 0.7);
 }
 
+.navbar a {
+  font-size: inherit;
+}
+
 .main {
   margin: 0 20px;
 }
@@ -20,11 +24,13 @@
   flex-direction: row;
   align-items: center;
   list-style-type: none;
+  font-size: inherit;
 }
 
 .link {
   padding: 0 20px;
   transition: 0.8s;
+  font-size: inherit;
 }
 
 .sticky {
@@ -49,4 +55,10 @@
 .active .line {
   background-color: var(--primary-color);
   width: 100%;
+}
+
+.hamburger {
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0.5em;
 }

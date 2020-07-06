@@ -13,8 +13,8 @@ const Showcase = () => {
           Joshua <span className="alias">"Lore"</span> Kelley
         </h1>
         <h3>Full-Stack Developer</h3>
-        <a href="#about" className="btn">
-          <i className="fas fa-chevron-down"></i>
+        <a href="#about" className=" btn">
+          <i className=" fas fa-chevron-down"></i>
         </a>
       </div>
     </section>

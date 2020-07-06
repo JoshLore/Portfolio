@@ -6,8 +6,17 @@ const Navbar = () => {
   const [about, setAbout] = useState(false);
   const [projects, setProject] = useState(false);
   const [contact, setContact] = useState(false);
+  const [checkWindowSize, setCheckWindowSize] = useState(false);
+
+  window.addEventListener("load", () => {
+    setCheckWindowSize(window.innerWidth > 960);
+  });
 
   useEffect(() => {
+    window.addEventListener("resize", () => {
+      setCheckWindowSize(window.innerWidth > 960);
+    });
+
     document.addEventListener("scroll", () => {
       // Get Home Element
       const homeElement = document
@@ -37,11 +46,8 @@ const Navbar = () => {
     });
   });
 
-  return (
-    <nav className="navbar sticky">
-      <a href="# ">
-        <span className="alias">Lore</span>Develops
-      </a>
+  const showLinks = () => {
+    return (
       <div className="show-links">
         <div className={home ? "link active" : "link"}>
           <a href="# ">Home</a>
@@ -60,6 +66,15 @@ const Navbar = () => {
           <hr className="line" />
         </div>
       </div>
+    );
+  };
+
+  return (
+    <nav className="navbar sticky">
+      <a href="# ">
+        <span className="alias">Lore</span>Develops
+      </a>
+      {checkWindowSize ? showLinks() : ""}
     </nav>
   );
 };
