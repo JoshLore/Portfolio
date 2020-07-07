@@ -3,6 +3,7 @@ import "../styles/About.css";
 import data from "../data.json";
 import picture from "../images/profile.png";
 import Skill from "./Skill";
+import WorkExperience from "./WorkExperience";
 
 const About = () => {
   const about = data.about;
@@ -14,33 +15,6 @@ const About = () => {
       result.push(<Skill skill={skill} icon={iconClass} key={skill} />);
     }
     return result;
-  };
-
-  const workExperience = () => {
-    const jobs = data.about.workExperience;
-    const experience = [];
-
-    for (let i = 0; i < jobs.length; i++) {
-      const render = (
-        <div className="job" key={jobs[i].company}>
-          <div className="jobTop">
-            <h2 className="jobName">
-              {jobs[i].company} <hr />
-            </h2>
-            <p className="time">{jobs[i].time}</p>
-          </div>
-          <p className="jobTitle">{jobs[i].title}</p>
-          <ul className="jobDuties">
-            <li className="duty">{jobs[i].duties[0]}</li>
-            <li className="duty">{jobs[i].duties[1]}</li>
-            <li className="duty">{jobs[i].duties[2]}</li>
-          </ul>
-        </div>
-      );
-      experience.push(render);
-    }
-    console.log(experience);
-    return experience;
   };
 
   return (
@@ -64,9 +38,26 @@ const About = () => {
           <p>{about.education.attended}</p>
         </div>
       </div>
+      <div className="desc">
+        <h2 className="subtitle">About Me</h2>
+        <p className="description">
+          Hello, I'm <span className="alias">Josh</span>, an aspiring full-stack
+          developer. Most of my experience is in JavaScript, React, Node.js, and
+          other JavaScript libraries. I've also worked on projects with Python,
+          Ruby on Rails, C#, and many more. I enjoy working with others as
+          necessary to develop solutions, and I can effectively communicate my
+          ideas to teammates I work with. Please contact me if you'd like to
+          learn more.
+        </p>
+      </div>
 
-      <div className="experiences">{workExperience()}</div>
-      {/* <ul className="skills">{getSkills()}</ul> */}
+      <div className="experiences">
+        <WorkExperience jobs={data.about.workExperience} />
+      </div>
+      <div className="skills-container">
+        <h2 className="subtitle">Skills</h2>
+        <ul className="skills">{getSkills()}</ul>
+      </div>
     </div>
   );
 };

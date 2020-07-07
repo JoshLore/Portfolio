@@ -19,8 +19,9 @@
       "Angular": "fab fa-angular",
       "Vue.js": "fab fa-vuejs",
       "Git": "fab fa-git",
-      "GCP": "fab fa-google",
-      "AWS": "fab fa-aws"
+      "Digital Ocean": "fab fa-digital-ocean",
+      "Google Cloud Platform": "fab fa-google",
+      "Amazon Web Services": "fab fa-aws"
     },
     "workExperience": [
       {
