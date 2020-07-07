@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
+import data from "../data.json";
 
 const Navbar = () => {
   const [home, setHome] = useState(true);
@@ -72,7 +73,8 @@ const Navbar = () => {
   return (
     <nav className="navbar sticky">
       <a href="# ">
-        <span className="alias">Lore</span>Develops
+        <span className="alias">{data.about.alias}</span>
+        {data.about.websiteSubname}
       </a>
       {checkWindowSize ? showLinks() : ""}
     </nav>

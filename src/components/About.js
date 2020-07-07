@@ -40,15 +40,7 @@ const About = () => {
       </div>
       <div className="desc">
         <h2 className="subtitle">About Me</h2>
-        <p className="description">
-          Hello, I'm <span className="alias">Josh</span>, an aspiring full-stack
-          developer. Most of my experience is in JavaScript, React, Node.js, and
-          other JavaScript libraries. I've also worked on projects with Python,
-          Ruby on Rails, C#, and many more. I enjoy working with others as
-          necessary to develop solutions, and I can effectively communicate my
-          ideas to teammates I work with. Please contact me if you'd like to
-          learn more.
-        </p>
+        <p className="description">{data.about.aboutMe}</p>
       </div>
 
       <div className="experiences">

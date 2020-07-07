@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Showcase.css";
 import Video from "../video.mp4";
+import data from "../data.json";
 
 const Showcase = () => {
   return (
@@ -10,9 +11,11 @@ const Showcase = () => {
       </div>
       <div className="content">
         <h1>
-          Joshua <span className="alias">"Lore"</span> Kelley
+          {data.about.firstName}{" "}
+          <span className="alias">"{data.about.alias}"</span>{" "}
+          {data.about.lastName}
         </h1>
-        <h3>Full-Stack Developer</h3>
+        <h3>{data.about.jobTitle}</h3>
         <a href="#about" className=" btn">
           <i className=" fas fa-chevron-down"></i>
         </a>

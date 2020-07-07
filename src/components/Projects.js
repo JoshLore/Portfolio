@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../data.json";
 
 const Projects = () => {
   return (
@@ -10,6 +11,7 @@ const Projects = () => {
           <hr className="title-line" />
         </h2>
       </div>
+      <div className="projects-container"></div>
     </div>
   );
 };

@@ -1,10 +1,23 @@
 import React from "react";
 
 // Displays all work experience from data.json
-// Only up to 3 job duties allowed**
 const WorkExperience = (props) => {
   const jobs = props.jobs;
   const experience = [];
+
+  // Display all duties in each job experience
+  const duties = (duties) => {
+    const dutiesArray = [];
+    for (let j = 0; j < duties.length; j++) {
+      const duty = (
+        <li className="duty" key={j}>
+          {duties[j]}
+        </li>
+      );
+      dutiesArray.push(duty);
+    }
+    return dutiesArray;
+  };
 
   for (let i = 0; i < jobs.length; i++) {
     const render = (
@@ -16,11 +29,7 @@ const WorkExperience = (props) => {
           <p className="time">{jobs[i].time}</p>
         </div>
         <p className="jobTitle">{jobs[i].title}</p>
-        <ul className="jobDuties">
-          <li className="duty">{jobs[i].duties[0]}</li>
-          <li className="duty">{jobs[i].duties[1]}</li>
-          <li className="duty">{jobs[i].duties[2]}</li>
-        </ul>
+        <ul className="jobDuties">{duties(jobs[i].duties)}</ul>
       </div>
     );
     experience.push(render);

@@ -1,12 +1,17 @@
 {
   "about": {
-    "name": "Joshua Kelley",
+    "firstName": "Joshua",
+    "alias": "Lore",
+    "lastName": "Kelley",
+    "websiteSubname": "Develops",
+    "jobTitle": "Full-Stack Developer",
     "picture": "../images/profile.png",
     "education": {
       "school": "University of Texas at Austin",
       "degree": "B.S. In Computer Science",
       "attended": "2015 - 2020"
     },
+    "aboutMe": "Hello, I'm Joshua, an aspiring full-stack developer. Most of my experience is in JavaScript, React, Node.js, and other JavaScript libraries. I've also worked on projects with Python, Ruby on Rails, C#, and many more. I enjoy working with others as necessary to develop solutions, and I can effectively communicate my ideas to teammates I work with. Please contact me if you'd like to learn more.",
     "skills": {
       "JavaScript": "fab fa-js",
       "Python": "fab fa-python",
