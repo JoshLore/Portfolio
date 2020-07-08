@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c00af3e5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.cd530dba.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cd530dba.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/js/2.a1d538a4.chunk.js": "/Portfolio/static/js/2.a1d538a4.chunk.js",
+    "static/js/2.a1d538a4.chunk.js.map": "/Portfolio/static/js/2.a1d538a4.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a41c9c77ff41db822dda0f19111e55a5.js": "/Portfolio/precache-manifest.a41c9c77ff41db822dda0f19111e55a5.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.c00af3e5.chunk.css.map": "/Portfolio/static/css/main.c00af3e5.chunk.css.map",
+    "static/js/2.a1d538a4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a1d538a4.chunk.js.LICENSE.txt",
+    "static/media/HueTaskr.png": "/Portfolio/static/media/HueTaskr.118c8c9c.png",
+    "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.47893cd2.png",
+    "static/media/The Coding Network.png": "/Portfolio/static/media/The Coding Network.ec29c0df.png",
+    "static/media/profile.png": "/Portfolio/static/media/profile.42299829.png",
+    "static/media/video.mp4": "/Portfolio/static/media/video.e98f0c0c.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/js/2.a1d538a4.chunk.js",
+    "static/css/main.c00af3e5.chunk.css",
+    "static/js/main.cd530dba.chunk.js"
+  ]
+}
