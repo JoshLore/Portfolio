@@ -1,5 +1,17 @@
 import React from "react";
 import data from "../data.json";
+import Project from "./Project";
+import "../styles/Projects.css";
+
+const getProjects = () => {
+  const keys = data.projects;
+  const result = [];
+  for (let i = 0; i < keys.length; i++) {
+    const proj = <Project project={keys[i]} key={keys[i].name} />;
+    result.push(proj);
+  }
+  return result;
+};
 
 const Projects = () => {
   return (
@@ -11,7 +23,7 @@ const Projects = () => {
           <hr className="title-line" />
         </h2>
       </div>
-      <div className="projects-container"></div>
+      <div className="projects-container">{getProjects()}</div>
     </div>
   );
 };

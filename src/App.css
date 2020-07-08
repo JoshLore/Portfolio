@@ -80,4 +80,15 @@ h1 {
   .jobName hr {
     width: 60% !important;
   }
+
+  .project {
+    width: 95% !important;
+  }
+
+  .project-name hr {
+    width: 50% !important;
+  }
+  .project-img {
+    display: none;
+  }
 }

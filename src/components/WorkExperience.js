@@ -34,7 +34,6 @@ const WorkExperience = (props) => {
     );
     experience.push(render);
   }
-  console.log(experience);
   return experience;
 };
 

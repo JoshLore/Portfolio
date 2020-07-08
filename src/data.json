@@ -54,8 +54,7 @@
   "projects": [
     {
       "name": "Portfolio",
-      "img": "../images/portfolio.png",
-      "description": "My personal portfolio.",
+      "description": "My personal portfolio",
       "skills": ["React"],
       "url": {
         "GitHub": "https://github.com/JoshLore/Portfolio",
@@ -63,23 +62,21 @@
       }
     },
     {
-      "name": "HueTasks",
-      "img": "../images/huetasks.png",
-      "description": "Desktop App for programming Philip Hue Lights",
+      "name": "HueTaskr",
+      "description": "Desktop App for programming Hue Lights",
       "skills": ["Vue.js", "Electron", "Node.js"],
       "url": {
-        "GitHub": "https://github.com/JoshLore/HueTasks",
-        "Website": "https://github.com/JoshLore/HueTasks"
+        "GitHub": "https://github.com/JoshLore/HueTaskr",
+        "Website": "https://github.com/JoshLore/HueTaskr"
       }
     },
     {
       "name": "The Coding Network",
-      "img": "../images/thecodingnetwork.png",
       "description": "A Social Network for Programmers",
       "skills": ["MongoDB", "Express", "React", "Node.js"],
       "url": {
         "GitHub": "https://github.com/JoshLore/thecodingnetwork-frontend",
-        "Website": "https://thecoding.network"
+        "Website": "http://thecoding.network"
       }
     }
   ],

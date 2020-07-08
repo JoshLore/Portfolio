@@ -1,0 +1,83 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 1em auto;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10em;
+}
+
+.project-img {
+  width: 40%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.project-about {
+  width: 100%;
+  padding: 0 1em;
+  margin: 1em 0;
+}
+
+.project-name {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+.project-name hr {
+  width: 80%;
+  height: 4px;
+  background-color: var(--primary-color);
+  border-width: 0;
+}
+
+.project-desc {
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  text-transform: initial;
+  color: #ddd;
+}
+
+.project-techs {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.tech {
+  margin-right: 1em;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.project-link {
+  display: flex;
+  padding: 0.4em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  font-weight: 700;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+  transition: 0.5s;
+}
+
+.project-link i {
+  margin-right: 0.5em;
+}
+
+.project-link:hover {
+  color: var(--primary-color);
+  background-color: #fff;
+}
