@@ -86,11 +86,12 @@
       "GitHub": ["https://github.com/JoshLore", "fab fa-github"],
       "LinkedIn": [
         "https://www.linkedin.com/in/joshua-kelley-1950b315b/",
-        "fab fa-linkedin"
+        "fab fa-linkedin-in"
       ],
-      "Portfolio": ["http://loredevelops.com", "fas fa-user-tie"]
+      "Twitter": ["https://twitter.com/josh_yellek", "fab fa-twitter"],
+      "Portfolio": ["http://loredevelops.com", "fa fa-external-link-square-alt"]
     },
-    "Email": "loredevelops@gmail.com",
-    "Phone": "915-256-1185"
+    "email": "loredevelops@gmail.com",
+    "phone": "(915) 256-1185"
   }
 }
